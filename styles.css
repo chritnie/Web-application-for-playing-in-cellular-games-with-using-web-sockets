@@ -1,0 +1,120 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Impact, sans-serif;
+    background: #333; /* Dark background */
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login-form {
+    background: #444;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 86%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #45a049;
+}
+
+.login-link, .signup-link {
+    color: #ccc;
+    text-align: center;
+}
+
+.login-link a, .signup-link a {
+    color: #8fde5d;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #333;
+    color: #fff;
+  }
+  
+  .lobby-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .user-info, .lobby {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    width: calc(100% - 20px);
+  }
+  
+  .login-button {
+    background-color: #8fde5d;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: calc(100% - 24px);
+  }
+  
+  .login-button:hover {
+    background-color: #7ecf4d;
+  }
+  
+  #board {
+    margin-top: 20px;
+  }
+  
+  #newRating, #player, #opponent {
+    font-size: 18px;
+    margin: 10px;
+  }
+  
+  #state {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  

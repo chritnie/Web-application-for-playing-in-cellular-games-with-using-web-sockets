@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Select Game Mode</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.2/chess.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+  <div class="game-selection">
+    <button onclick="window.location.href='lobby'" class="login-button">Join Game by Room Number</button>
+    <button onclick="startRatingMatch()" class="login-button">Find Match by Rating</button>
+  </div>
+  
+  <script src="./game.js"></script>
+</body>
+</html>
